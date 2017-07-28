@@ -6,6 +6,7 @@ import (
 	"os"
 )
 
+// Usage: echo "foo bar baz foo bar foo" | go run main.go
 func main() {
 
 	var counts map[string]int = map[string]int{}
