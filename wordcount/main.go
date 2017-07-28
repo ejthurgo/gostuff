@@ -6,7 +6,9 @@ import (
 	"os"
 )
 
-// Usage: echo "foo bar baz foo bar foo" | go run main.go
+// Usage:
+//   echo "foo bar baz foo bar foo" | go run main.go
+//   go run main.go Ctrl+D to escape
 func main() {
 
 	var counts map[string]int = map[string]int{}
