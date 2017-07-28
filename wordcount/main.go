@@ -17,6 +17,8 @@ func main() {
 		incrementWord(counts, scn.Text())
 	}
 
+	fmt.Println(counts)
+
 }
 
 func incrementWord(m map[string]int, w string) int {
